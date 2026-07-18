@@ -36,5 +36,5 @@ Write a REST service using Spring Web Framework that returns the text "Hello Wor
 2. Click Send
 3. Click the Headers tab in the response panel to view all response headers
 
-## Output (expected)
+## Output 
 Hello World!!
