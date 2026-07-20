@@ -41,3 +41,5 @@ Component-based architecture, Virtual DOM for performance, JSX syntax, one-way d
 
 ## Output
 Browser displays the heading: "Welcome the first session of React"
+![Uploading image.png…]()
+
