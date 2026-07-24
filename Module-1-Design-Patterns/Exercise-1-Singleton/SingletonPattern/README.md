@@ -5,4 +5,5 @@ Logger Instance Created
 LOG: First Message
 LOG: Second Message
 Only one Logger instance exists.
-<img width="1393" height="163" alt="Screenshot 2026-07-24 213011" src="https://github.com/user-attachments/assets/d33f40d1-89af-431e-ae6a-7b3ee59b3e32" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5174b1fd-175b-45f2-9e47-49331d6caacc" />
+
