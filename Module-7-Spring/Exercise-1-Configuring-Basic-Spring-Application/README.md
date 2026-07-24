@@ -16,7 +16,7 @@ Set up a Spring Core project for a library management system using XML-based con
 - src/main/resources/applicationContext.xml - bean definitions and dependency injection
 - MainApp.java - loads the Spring context and tests the beans
 
-## Output (expected)
+## Output 
 BookService: Adding a new book...
 Book saved to repository.
 BookService: Listing all books...

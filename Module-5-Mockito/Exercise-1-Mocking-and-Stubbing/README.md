@@ -14,5 +14,5 @@ Test a service that depends on an external API by mocking the API using Mockito.
 - MyServiceTest.java - test class using Mockito to mock and stub ExternalApi
 - pom.xml - Maven dependencies (JUnit 5 + Mockito)
 
-## Output (expected)
+## Output 
 testExternalApi() passes: service.fetchData() returns "Mock Data" as stubbed.

@@ -15,3 +15,4 @@ Set up a Maven project for the library management application with Spring depend
 
 ## Build configuration
 - maven-compiler-plugin configured with source and target Java version 1.8
+

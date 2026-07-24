@@ -38,5 +38,5 @@ Run database/setup.sql to create the `ormlearn` schema, the `country` table, and
 - @Service marks the class as a Spring-managed service component
 - @Transactional ensures the database operation runs within a transaction
 
-## Output (expected)
+## Output 
 Log output shows "Inside main", followed by "Start", the list of Country objects fetched from the database, and "End".

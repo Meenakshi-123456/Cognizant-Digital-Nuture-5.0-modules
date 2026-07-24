@@ -14,5 +14,5 @@ Ensure that a specific method is called on a mock object during a test.
 - MyServiceTest.java - test class using Mockito's verify() to check interactions
 - pom.xml - Maven dependencies (JUnit 5 + Mockito)
 
-## Output (expected)
+## Output
 testVerifyInteraction() passes: confirms that mockApi.getData() was called exactly once during service.fetchData().

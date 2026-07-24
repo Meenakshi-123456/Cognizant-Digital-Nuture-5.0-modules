@@ -10,5 +10,5 @@ Demonstrate different JUnit assertions to validate test results.
 - assertNull - checks a value is null
 - assertNotNull - checks a value is not null
 
-## Output (expected)
+## Output 
 All assertions in testAssertions() pass, indicating the method completes without throwing any assertion errors.

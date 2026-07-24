@@ -37,5 +37,5 @@ A meta-annotation combining three annotations:
 ### Dependency Hierarchy
 Opening pom.xml in Eclipse and viewing the "Dependency Hierarchy" tab shows the full tree of transitive dependencies pulled in by spring-boot-starter-web, including Tomcat, Jackson, and Spring MVC - useful for understanding the complete set of libraries included in the build.
 
-## Output (expected)
+## Output 
 Log output includes "Inside main" after the Spring Boot application context has started successfully.

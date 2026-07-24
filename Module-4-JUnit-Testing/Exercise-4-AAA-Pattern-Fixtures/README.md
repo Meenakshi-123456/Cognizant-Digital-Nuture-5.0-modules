@@ -10,7 +10,7 @@ Organize JUnit tests using the AAA pattern, and use @Before/@After for setup and
 - @Before: runs setup logic before each test method
 - @After: runs cleanup logic after each test method
 
-## Output (expected)
+## Output 
 Setup: Test data initialized.
 Teardown: Test data cleared.
 Setup: Test data initialized.
