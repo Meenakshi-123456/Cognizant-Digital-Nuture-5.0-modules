@@ -45,3 +45,7 @@ Request to /countries/in returns:
   "code": "IN",
   "name": "India"
 }
+<img width="1520" height="785" alt="image" src="https://github.com/user-attachments/assets/7ee5d341-61eb-4ac4-8aa2-59332254ea78" />
+<img width="1548" height="684" alt="image" src="https://github.com/user-attachments/assets/b8362fa1-9fef-4151-b943-e2a6ade8d82a" />
+<img width="1546" height="753" alt="image" src="https://github.com/user-attachments/assets/d29b146a-e8ef-4516-93c6-665a1b8ee329" />
+<img width="1526" height="703" alt="image" src="https://github.com/user-attachments/assets/b4137807-9c34-444c-99b5-40343ba90ac9" />
