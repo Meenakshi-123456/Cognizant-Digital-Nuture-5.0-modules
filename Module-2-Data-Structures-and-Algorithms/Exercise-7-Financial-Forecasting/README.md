@@ -20,3 +20,4 @@ Initial Value: 10000.0
 Growth Rate: 8.0%
 Years: 5
 Predicted Future Value: 14693.28
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a40b21e-4ce4-4a3c-aa0a-e96b2761c4f4" />
