@@ -15,7 +15,7 @@ Manage dependencies between BookService and BookRepository using Spring's IoC an
 - src/main/resources/applicationContext.xml - wires BookRepository into BookService
 - LibraryManagementApplication.java - loads context and verifies DI
 
-## Output (expected)
+## Output
 BookService: Adding a new book...
 Book saved to repository.
 BookService: Listing all books...
