@@ -38,3 +38,5 @@ Write a REST service using Spring Web Framework that returns the text "Hello Wor
 
 ## Output 
 Hello World!!
+<img width="1518" height="775" alt="image" src="https://github.com/user-attachments/assets/ee4a4ec3-d5fd-4d56-a34d-7eafa13391ed" />
+<img width="1469" height="730" alt="image" src="https://github.com/user-attachments/assets/e6fa7599-8058-42c8-8119-fd9469bcb960" />
