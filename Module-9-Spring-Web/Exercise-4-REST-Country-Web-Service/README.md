@@ -48,3 +48,5 @@ Because CountryController is annotated with @RestController (which includes @Res
   "code": "IN",
   "name": "India"
 }
+<img width="1523" height="774" alt="image" src="https://github.com/user-attachments/assets/885eee7a-d294-420a-b676-f21135831f5d" />
+<img width="1529" height="797" alt="image" src="https://github.com/user-attachments/assets/6faad3ac-f21d-4eb8-be05-4f40a0030ef9" />
