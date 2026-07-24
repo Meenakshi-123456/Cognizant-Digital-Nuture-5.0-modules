@@ -42,5 +42,5 @@ An if-else block builds a colors array, pushing 'textRed' when Rent <= 60000 and
 
 ## Output
 A page displaying "Office Space , at Affordable Range" as the heading, followed by a list of office cards - each showing an image, name, rent (in red or green depending on the amount), and address.
-<img width="941" height="506" alt="image" src="https://github.com/user-attachments/assets/2d01190c-c4b1-45a4-99fe-fecb6c767031" />
+<img width="1502" height="789" alt="image" src="https://github.com/user-attachments/assets/b8c4570c-12eb-4518-b305-da4c81da3ba2" />
 
