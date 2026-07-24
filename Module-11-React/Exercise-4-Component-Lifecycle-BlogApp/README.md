@@ -50,3 +50,7 @@ constructor -> render (initial, empty posts) -> componentDidMount -> loadPosts (
 
 ## Output
 A list of blog post titles and bodies fetched from https://jsonplaceholder.typicode.com/posts, each displayed as a heading and paragraph.
+<img width="1310" height="681" alt="WhatsApp Image 2026-07-21 at 3 46 42 PM" src="https://github.com/user-attachments/assets/cf438476-1be5-49cb-9ec5-32395a3e12c7" />
+<img width="1312" height="681" alt="WhatsApp Image 2026-07-21 at 3 47 09 PM" src="https://github.com/user-attachments/assets/e87bd9ee-6a86-4e8c-a570-ce55187e983a" />
+<img width="1300" height="671" alt="WhatsApp Image 2026-07-21 at 3 47 36 PM" src="https://github.com/user-attachments/assets/fdecc110-0b07-4742-9887-6c09d776d5ec" />
+
