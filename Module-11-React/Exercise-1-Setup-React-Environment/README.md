@@ -41,4 +41,5 @@ Component-based architecture, Virtual DOM for performance, JSX syntax, one-way d
 
 ## Output
 Browser displays the heading: "Welcome the first session of React"
-<img width="939" height="411" alt="image" src="https://github.com/user-attachments/assets/89ab1ecb-f484-4df6-8578-2c871ff81c3c" />
+<img width="1525" height="717" alt="image" src="https://github.com/user-attachments/assets/75ec1d40-f327-47cb-85af-01d13b148be1" />
+
