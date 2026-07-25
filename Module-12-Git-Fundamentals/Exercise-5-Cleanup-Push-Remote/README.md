@@ -22,4 +22,5 @@ Output: `Everything up-to-date`
 
 ## Outcome
 Local and remote repositories are fully in sync — no pending changes, clean working tree confirmed both locally and on GitHub.
-<img width="1523" height="795" alt="image" src="https://github.com/user-attachments/assets/bc86885b-39b4-48ce-8a02-5088daa00d81" />
+<img width="716" height="512" alt="image" src="https://github.com/user-attachments/assets/e68b47fa-6668-4dea-babd-49f2d615ef01" />
+
