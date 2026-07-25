@@ -40,3 +40,8 @@ Run database/setup.sql to create the `ormlearn` schema, the `country` table, and
 
 ## Output 
 Log output shows "Inside main", followed by "Start", the list of Country objects fetched from the database, and "End".
+<img width="1112" height="492" alt="image" src="https://github.com/user-attachments/assets/09923af1-c64d-445d-ab58-7fb472bf71da" />
+<img width="1525" height="780" alt="image" src="https://github.com/user-attachments/assets/95253aad-e575-4efc-8022-2cf8586aea22" />
+<img width="1518" height="742" alt="image" src="https://github.com/user-attachments/assets/b9047a15-7b5a-4e61-af4a-bb4124e8d948" />
+<img width="1546" height="811" alt="image" src="https://github.com/user-attachments/assets/b92ab63b-2469-4600-aa7b-9e8d3a0e0378" />
+

@@ -16,3 +16,4 @@ Test a service that depends on an external API by mocking the API using Mockito.
 
 ## Output 
 testExternalApi() passes: service.fetchData() returns "Mock Data" as stubbed.
+<img width="1405" height="252" alt="image" src="https://github.com/user-attachments/assets/f008ed5a-0bae-467b-aaa6-21f8781119d5" />

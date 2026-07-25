@@ -39,3 +39,7 @@ Opening pom.xml in Eclipse and viewing the "Dependency Hierarchy" tab shows the 
 
 ## Output 
 Log output includes "Inside main" after the Spring Boot application context has started successfully.
+<img width="562" height="522" alt="image" src="https://github.com/user-attachments/assets/f22a1624-02db-44f6-af17-778e4bbb3871" />
+<img width="577" height="417" alt="image" src="https://github.com/user-attachments/assets/10a10ecb-d2b8-46c4-a472-fdb542bc63f1" />
+
+

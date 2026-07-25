@@ -16,3 +16,4 @@ Ensure that a specific method is called on a mock object during a test.
 
 ## Output
 testVerifyInteraction() passes: confirms that mockApi.getData() was called exactly once during service.fetchData().
+<img width="1405" height="255" alt="image" src="https://github.com/user-attachments/assets/3221cd12-7dce-4155-a38f-6bd292f92aa7" />

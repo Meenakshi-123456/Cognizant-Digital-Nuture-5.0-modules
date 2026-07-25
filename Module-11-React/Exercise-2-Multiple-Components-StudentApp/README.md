@@ -40,4 +40,5 @@ Components specifically return JSX/UI and are tied to React's rendering lifecycl
 Welcome to the Home Page of Student Management Portal
 Welcome to the About Page of Student Management Portal
 Welcome to the Contact Page of Student Management Portal
-<img width="939" height="502" alt="image" src="https://github.com/user-attachments/assets/b1353f37-2651-4338-8c0c-3b3391649d4a" />
+<img width="1531" height="643" alt="image" src="https://github.com/user-attachments/assets/90b07545-f996-4d7a-9621-293b0af83e43" />
+

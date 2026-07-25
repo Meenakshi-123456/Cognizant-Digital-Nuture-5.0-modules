@@ -1,1 +1,3 @@
-Welcome to GitDemo
+Welcome to Git
+<br>
+This is my first Git project

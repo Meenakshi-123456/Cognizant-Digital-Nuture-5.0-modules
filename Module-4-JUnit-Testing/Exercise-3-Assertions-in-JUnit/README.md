@@ -12,3 +12,4 @@ Demonstrate different JUnit assertions to validate test results.
 
 ## Output 
 All assertions in testAssertions() pass, indicating the method completes without throwing any assertion errors.
+<img width="1390" height="237" alt="image" src="https://github.com/user-attachments/assets/3440dbd6-a18f-43bd-8e03-979dfe77a0f5" />

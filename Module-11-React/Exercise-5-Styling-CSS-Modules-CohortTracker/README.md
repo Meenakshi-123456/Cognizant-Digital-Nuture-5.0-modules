@@ -37,5 +37,5 @@ style={{ color: cohort.status === "Ongoing" ? "green" : "blue" }} demonstrates R
 
 ## Output 
 A dashboard displaying three cohort detail cards, each styled as a bordered box with rounded corners. Cohort names appear in green when status is "Ongoing" and blue otherwise.
-<img width="975" height="337" alt="image" src="https://github.com/user-attachments/assets/c55754bf-61ac-42df-b312-d8bc0c92713c" />
+<img width="1509" height="777" alt="image" src="https://github.com/user-attachments/assets/838e06f0-c3c4-4667-983c-556936e1a4bf" />
 

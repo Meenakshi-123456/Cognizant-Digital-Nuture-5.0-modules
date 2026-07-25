@@ -35,8 +35,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Output
 - **flag = true** → List of Players + Players with score < 70
-- <img width="947" height="502" alt="image" src="https://github.com/user-attachments/assets/5729ecc0-79b6-4544-a081-a2cf94b33e03" />
 
 - **flag = false** → Indian Team Odd/Even Players + Merged Indian Players list
-- <img width="945" height="505" alt="image" src="https://github.com/user-attachments/assets/ddf56e08-9a43-45d2-96d8-416aa5689e1f" />
+<img width="1514" height="752" alt="image" src="https://github.com/user-attachments/assets/3f3707c9-827f-4339-9b6a-7dfc6d12c69a" />
 
