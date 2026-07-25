@@ -67,4 +67,5 @@ Inside Country Constructor.
 Inside setCode()
 Inside setName()
 Country : Country [code=IN, name=India]
-<img width="1526" height="789" alt="image" src="https://github.com/user-attachments/assets/85d281a7-62be-4945-828b-d6cc8afc083b" />
+<img width="1247" height="555" alt="image" src="https://github.com/user-attachments/assets/aa20eb9c-6b3a-4645-bda7-205e7fd2e464" />
+
