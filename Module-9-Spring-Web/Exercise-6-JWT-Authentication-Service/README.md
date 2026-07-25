@@ -33,5 +33,6 @@ JwtUtil.generateToken() uses the JJWT library to build a signed JWT containing t
 
 ## Output
 {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNTcwMzc5NDc0LCJleHAiOjE1NzAzODA2NzR9.t3LRvlCV-hwKfoqZYlaVQqEUiBloWcWn0ft3tgv0dL0"}
-<img width="1522" height="728" alt="image" src="https://github.com/user-attachments/assets/c50f8860-e30e-4e82-9ea5-cfe523a54890" />
+<img width="1262" height="556" alt="image" src="https://github.com/user-attachments/assets/193005e4-4958-4435-a865-5eb50666c840" />
+
 <img width="1547" height="790" alt="image" src="https://github.com/user-attachments/assets/8a2e4a6d-58f2-4e16-a519-ce1fefdf06ed" />
