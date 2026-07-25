@@ -15,4 +15,5 @@ Demonstrate logging error and warning messages using SLF4J with Logback.
 ## Output
 ERROR LoggingExample - This is an error message
 WARN  LoggingExample - This is a warning message
-<img width="910" height="175" alt="image" src="https://github.com/user-attachments/assets/69125b74-cb8f-49bd-b3dc-df70ee020478" />
+<img width="1024" height="194" alt="image" src="https://github.com/user-attachments/assets/67bacba8-9eff-4cba-9150-58ffe656b39b" />
+
