@@ -1,0 +1,29 @@
+<div
+  class="card"
+  [ngClass]="cardClasses"
+  [ngStyle]="{
+    'border-left-color':
+      course.gradeStatus === 'passed'
+      ? 'green'
+      : course.gradeStatus === 'failed'
+      ? 'red'
+      : 'gray'
+  }">
+
+  <h2>{{course.name}}</h2>
+
+  <p>Credits: {{course.credits}}</p>
+
+  <p>Status: {{course.gradeStatus}}</p>
+
+  <p>Enrolled: {{course.enrolled}}</p>
+
+  <button (click)="toggleDetails()">
+    Show Details
+  </button>
+
+  <div *ngIf="isExpanded">
+    <p>This course covers Angular Attribute Directives.</p>
+  </div>
+
+</div>
