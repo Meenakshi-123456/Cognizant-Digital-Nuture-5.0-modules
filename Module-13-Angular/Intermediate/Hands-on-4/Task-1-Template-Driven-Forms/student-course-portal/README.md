@@ -20,13 +20,13 @@ Build a Student Enrollment Request Form using Angular Template-Driven Forms with
 ## Screenshots
 
 ### Enrollment Form
-![Enrollment Form](student-course-portal/screenshots/01-enrollment-form.png)
+![Enrollment Form](screenshots/01-enrollment-form.png)
 
 ### Filled Form
-![Filled Form](student-course-portal/screenshots/02-filled-form.png)
+![Filled Form](screenshots/02-filled-form.png)
 
 ### Console Output
-![Console Output](student-course-portal/screenshots/03-console-output.png)
+![Console Output](screenshots/03-console-output.png)
 
 ## Result
 Successfully implemented a Template-Driven Form with Angular `FormsModule`, `ngModel`, `ngForm`, and form submission handling.
