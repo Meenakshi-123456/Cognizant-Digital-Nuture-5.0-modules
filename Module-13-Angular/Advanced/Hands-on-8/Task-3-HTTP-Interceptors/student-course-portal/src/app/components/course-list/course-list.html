@@ -1,0 +1,38 @@
+<h2>Course List</h2>
+
+<p *ngIf="errorMessage" style="color:red">
+  {{ errorMessage }}
+</p>
+
+
+<div *ngFor="let course of courses">
+
+  <h3>{{ course.name }}</h3>
+
+  <p>Duration: {{ course.duration }}</p>
+
+  <p>Fee: {{ course.fee }}</p>
+
+  <p>Credits: {{ course.credits }}</p>
+
+
+  <button type="button" (click)="loadStudents(course.id!)">
+    Load Students
+  </button>
+
+  <hr>
+
+</div>
+
+
+<h2>Students</h2>
+
+<div *ngIf="students.length > 0">
+
+  <ul>
+    <li *ngFor="let student of students">
+      {{ student.name }} - {{ student.email }}
+    </li>
+  </ul>
+
+</div>
