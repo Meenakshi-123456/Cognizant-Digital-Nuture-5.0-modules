@@ -1,0 +1,41 @@
+{
+  "courses": [
+    {
+      "id": "2",
+      "name": "Java Updated",
+      "duration": "4 months",
+      "fee": 30000,
+      "credits": 4
+    },
+    {
+      "id": "3",
+      "name": "Angular",
+      "duration": "3 months",
+      "fee": 25000,
+      "credits": 5
+    }
+  ],
+
+  "students": [
+  {
+    "id": 1,
+    "name": "Ravi",
+    "email": "ravi@gmail.com",
+    "courseId": 2
+  },
+  {
+    "id": 2,
+    "name": "Anu",
+    "email": "anu@gmail.com",
+    "courseId": 2
+  },
+  {
+    "id": 3,
+    "name": "Kiran",
+    "email": "kiran@gmail.com",
+    "courseId": 3
+  }
+],
+
+  "$schema": "./node_modules/json-server/schema.json"
+}
