@@ -1,0 +1,30 @@
+<h2>Course List</h2>
+
+
+<div *ngFor="let course of (courses$ | async)">
+
+
+<h3>
+{{course.name}}
+</h3>
+
+
+<p>
+Duration: {{course.duration}}
+</p>
+
+
+<p>
+Fee: {{course.fee}}
+</p>
+
+
+
+<button
+(click)="toggleEnrollment(course.id!)"
+>
+Enroll
+</button>
+
+
+</div>
