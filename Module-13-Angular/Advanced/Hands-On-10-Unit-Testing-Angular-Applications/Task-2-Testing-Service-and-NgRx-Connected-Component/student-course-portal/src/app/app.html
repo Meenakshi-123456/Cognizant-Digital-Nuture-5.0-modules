@@ -1,0 +1,11 @@
+<h1>Student Course Portal</h1>
+
+<div *ngIf="loadingService.isLoading$ | async" class="loading">
+  Loading...
+</div>
+
+<app-course-list></app-course-list>
+
+<hr>
+
+<app-add-course></app-add-course>
