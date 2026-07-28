@@ -6,6 +6,7 @@
 - Verify successful HTTP responses.
 - Verify HTTP error handling.
 - Test an NgRx-connected component using `MockStore`.
+- Verify the loading state using `store.setState()`.
 
 ## Technologies Used
 
@@ -13,7 +14,8 @@
 - TypeScript
 - Jasmine
 - Karma
-- HttpClientTesting
+- HttpClient Testing
+- NgRx Store
 - NgRx MockStore
 
 ## Execution
@@ -24,15 +26,18 @@ ng serve
 ng test
 ```
 
-## Output
+## Expected Outcome
 
-- Service tests executed successfully.
-- NgRx-connected component tests executed successfully.
+- Service tests passed successfully.
+- Correct HTTP endpoint verified.
+- HTTP error handling verified.
+- NgRx-connected component tested successfully.
+- Loading state verified using MockStore.
 - All test cases passed.
 
 ```
-Executed 19 of 19 SUCCESS
-TOTAL: 19 SUCCESS
+Executed 20 of 20 SUCCESS
+TOTAL: 20 SUCCESS
 ```
 
 ## Screenshots
@@ -40,4 +45,4 @@ TOTAL: 19 SUCCESS
 - Browser Output
 - Course Service Test
 - Course List Component Test
-- ng test Result
+- ng test Result (20/20 SUCCESS)
