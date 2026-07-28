@@ -10,6 +10,18 @@ export const selectAllCourses =
     (state) => state.courses
   );
 
+export const selectLoading =
+  createSelector(
+    selectCourseState,
+    (state) => state.loading
+  );
+
+export const selectError =
+  createSelector(
+    selectCourseState,
+    (state) => state.error
+  );
+
 export const selectEnrolledIds =
   createSelector(
     selectCourseState,

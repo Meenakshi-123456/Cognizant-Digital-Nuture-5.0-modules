@@ -8,7 +8,9 @@ import { CourseService } from '../../services/course.service';
 
 @Injectable()
 export class CourseEffects {
+
   private actions$ = inject(Actions);
+
   private courseService = inject(CourseService);
 
   loadCourses$ = createEffect(() =>
@@ -22,7 +24,7 @@ export class CourseEffects {
           catchError((error) =>
             of(
               CourseActions.loadCoursesFailure({
-                error: error.message,
+                error: error.message
               })
             )
           )
@@ -30,4 +32,5 @@ export class CourseEffects {
       )
     )
   );
+
 }

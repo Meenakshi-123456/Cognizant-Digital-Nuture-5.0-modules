@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { provideMockStore } from '@ngrx/store/testing';
+import { provideMockStore, MockStore } from '@ngrx/store/testing';
 
 import { CourseListComponent } from './course-list';
 
@@ -7,6 +7,7 @@ describe('CourseListComponent', () => {
 
   let component: CourseListComponent;
   let fixture: ComponentFixture<CourseListComponent>;
+  let store: MockStore;
 
   const mockCourses = [
     {
@@ -33,6 +34,8 @@ describe('CourseListComponent', () => {
           initialState: {
             course: {
               courses: mockCourses,
+              loading: false,
+              error: null,
               enrolledIds: []
             },
             enrollment: {
@@ -42,6 +45,8 @@ describe('CourseListComponent', () => {
         })
       ]
     }).compileComponents();
+
+    store = TestBed.inject(MockStore);
 
     fixture = TestBed.createComponent(CourseListComponent);
     component = fixture.componentInstance;
@@ -59,6 +64,28 @@ describe('CourseListComponent', () => {
 
     expect(compiled.textContent).toContain('Angular');
     expect(compiled.textContent).toContain('Java');
+
+  });
+
+  it('should show loading state', () => {
+
+    store.setState({
+      course: {
+        courses: [],
+        loading: true,
+        error: null,
+        enrolledIds: []
+      },
+      enrollment: {
+        enrolledCourseIds: []
+      }
+    });
+
+    fixture.detectChanges();
+
+    const compiled = fixture.nativeElement;
+
+    expect(compiled.textContent).toContain('Loading');
 
   });
 

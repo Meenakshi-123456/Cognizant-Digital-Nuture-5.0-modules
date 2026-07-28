@@ -5,9 +5,14 @@ import { Observable, take } from 'rxjs';
 
 import { Course } from '../../models/course';
 
-import { loadCourses } from '../../store/course/course.actions';
+import {
+  loadCourses
+} from '../../store/course/course.actions';
 
-import { selectAllCourses } from '../../store/course/course.selectors';
+import {
+  selectAllCourses,
+  selectLoading
+} from '../../store/course/course.selectors';
 
 import {
   enrollInCourse,
@@ -29,6 +34,7 @@ export class CourseListComponent implements OnInit {
 
   courses$!: Observable<Course[]>;
   enrolledIds$!: Observable<string[]>;
+  loading$!: Observable<boolean>;
 
   constructor(private store: Store) {}
 
@@ -36,13 +42,15 @@ export class CourseListComponent implements OnInit {
 
     this.courses$ = this.store.select(selectAllCourses);
 
+    this.loading$ = this.store.select(selectLoading);
+
     this.enrolledIds$ = this.store.select(selectEnrolledCourses);
 
     this.store.dispatch(loadCourses());
 
   }
 
-  toggleEnrollment(courseId: string) {
+  toggleEnrollment(courseId: string): void {
 
     this.enrolledIds$
       .pipe(take(1))

@@ -15,14 +15,12 @@ export const loadCoursesFailure = createAction(
   props<{ error: string }>()
 );
 
-
 export const enrollInCourse = createAction(
   '[Course] Enroll In Course',
-  props<{ courseId: number }>()
+  props<{ courseId: string }>()
 );
-
 
 export const unenrollFromCourse = createAction(
   '[Course] Unenroll From Course',
-  props<{ courseId: number }>()
+  props<{ courseId: string }>()
 );
